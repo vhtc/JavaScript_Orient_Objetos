@@ -20,9 +20,9 @@ const valorSacado = conta1.sacar(50)
 
 const conta2 = new ContaCorrente();
 conta2.cliente = new Cliente();
-// conta2.cliente.nome = 'Alice'
-// conta2.cliente.cpf = 987654321
-// conta2.agencia = 1002
+conta2.cliente.nome = 'Alice'
+conta2.cliente.cpf = 987654321
+conta2.agencia = 1002
 
 const conta3 = new ContaCorrente()
 conta3.cliente = 0
