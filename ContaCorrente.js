@@ -9,15 +9,20 @@ export class ContaCorrente {
             this._cliente = novoValor
         }
     }
-    get cliente(){
+    get cliente() {
         return this._cliente
     }
 
     //#saldo = 0
     _saldo = 0;
 
-    get saldo(){
+    get saldo() {
         return this._saldo
+    }
+
+    constructor(cliente, agencia) {
+        this.agencia = agencia
+        this._cliente = cliente
     }
 
     sacar(valor) {

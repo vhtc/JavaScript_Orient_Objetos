@@ -5,6 +5,6 @@ cadastrar o type module para utilizar os exports imports no javascript
 # Modulo 2 ok
 # Modulo 3 ok
 # Modulo 4 ok
-# Modulo 5 Em Andamento...
+# Modulo 5 Em Andamento... Section 04
 
 ## https://cursos.alura.com.br/course/javascritpt-orientacao-objetos
